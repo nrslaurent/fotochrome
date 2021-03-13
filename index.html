@@ -1,29 +1,172 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>Fotochrome</title>
-  <meta name="description" content="Fotochrome est une association située à Saint Cyr l’école, dans le département des Yvelines, qui propose des sorties photos pour les amoureux de la nature et amateur de photos en noir et blanc.">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Fotochrome</title>
+    <meta
+      name="description"
+      content="Fotochrome est une association située à Saint Cyr l’école, dans le département des Yvelines, qui propose des sorties photos pour les amoureux de la nature et amateur de photos en noir et blanc."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <h1 class="bg-light m-auto">Fotochrome</h1>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container justify-content-end">
+            <ul class="navbar-nav">
+              <li class="navbar-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Présentation</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link">Evénements</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-dark">
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Présentation
+            </li>
+            <li class="breadcrumb-item"><a href="#">Evénements</a></li>
+            <li class="breadcrumb-item"><a href="#">Contact</a></li>
+          </ol>
+        </nav>
+      </header>
 
-  </header>
+      <main class="container">
+        <div class="row justify-content-end bg-dark mt-4">
+          <div class="col-6 text-white align-self-center">
+            <p id>
+              <strong>Fotochrome</strong> est une association domicilié à
+              Saint-Cyr l'école dans le département des Yvelines et qui propose des
+              <em>sorties photos</em> pour se déconnecter et pour découvrir les
+              merveilles qui nous entourent. Muni de votre appareil photo, vous
+              aurez le loisir de photographier le paysage coloré qui s'offre à
+              vous, mais une seule règle d'or si vous souhaitez être publié: des
+              clichés en noir et blanc!<br />
+              Envie d’un moment de détente et de découverte? Rejoignez-nous
+              vite!
+            </p>
+          </div>
+          <!-- add px-0 to remove padding and take full space for the pictures-->
+          <div class="col-6 px-0">
+            <div class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/pont.jpeg"
+                    class="d-block w-100"
+                    alt="flower"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/cygne.jpeg"
+                    class="d-block w-100"
+                    alt="museum"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/paysage.jpeg"
+                    class="d-block w-100"
+                    alt="swan"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/musee.jpeg"
+                    class="d-block w-100"
+                    alt="bridge"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/fleur.jpeg"
+                    class="d-block w-100"
+                    alt="bridge"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-start bg-dark">
+          <div class="col-6 px-0">
+            <div class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/champignon1.jpeg"
+                    class="d-block w-100"
+                    alt="flower"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/champignon2.jpeg"
+                    class="d-block w-100"
+                    alt="museum"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/champignon3.jpeg"
+                    class="d-block w-100"
+                    alt="swan"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/champignon4.jpeg"
+                    class="d-block w-100"
+                    alt="bridge"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/champignon5.jpeg"
+                    class="d-block w-100"
+                    alt="bridge"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 text-white align-self-center">
+            <p>Ballage en forêt, à la découverte des champignons.</p>
+          </div>
+        </div>
+      </main>
 
-  <main>
-
-  </main>
-
-  <footer>
-
-  </footer>
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-</body>
+      <footer></footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

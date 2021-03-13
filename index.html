@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
     <title>Fotochrome</title>
     <meta
       name="description"
@@ -21,10 +34,10 @@
   <body>
     <div class="container-fluid">
       <header>
-        <h1 class="bg-light m-auto">Fotochrome</h1>
+        <h1 class="dancing-font bg-light m-auto">Fotochrome</h1>
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container justify-content-end">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav concert-font fs-5">
               <li class="navbar-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Présentation</a
@@ -52,21 +65,22 @@
 
       <main class="container">
         <div class="row justify-content-end bg-dark mt-4">
-          <div class="col-6 text-white align-self-center">
-            <p id>
+          <!-- text takes full space with small screen-->
+          <div class="col-xs-12 col-lg-6 text-white align-self-center">
+            <p class="courgette-font fs-5">
               <strong>Fotochrome</strong> est une association domicilié à
-              Saint-Cyr l'école dans le département des Yvelines et qui propose des
-              <em>sorties photos</em> pour se déconnecter et pour découvrir les
-              merveilles qui nous entourent. Muni de votre appareil photo, vous
-              aurez le loisir de photographier le paysage coloré qui s'offre à
-              vous, mais une seule règle d'or si vous souhaitez être publié: des
-              clichés en noir et blanc!<br />
-              Envie d’un moment de détente et de découverte? Rejoignez-nous
-              vite!
+              Saint-Cyr l'école dans le département des Yvelines et qui propose
+              des <em>sorties photos</em> pour se déconnecter et pour découvrir
+              les merveilles qui nous entourent. Muni de votre appareil photo,
+              vous aurez le loisir de photographier le paysage coloré qui
+              s'offre à vous, mais une seule règle d'or si vous souhaitez être
+              publié: des clichés en noir et blanc!<br />
+              Envie d’un moment de détente et de découverte?<br />
+              Rejoignez-nous vite!
             </p>
           </div>
-          <!-- add px-0 to remove padding and take full space for the pictures-->
-          <div class="col-6 px-0">
+          <!-- text takes full space with small screen - add px-0 to remove padding and take full space for the pictures -->
+          <div class="col-xs-12 col-lg-6 px-0">
             <div class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -150,8 +164,10 @@
               </div>
             </div>
           </div>
-          <div class="col-6 text-white align-self-center">
-            <p>Ballage en forêt, à la découverte des champignons.</p>
+          <div class="col-6 text-white align-self-center text-center">
+            <p class="courgette-font fs-3">
+              Ballage en forêt, à la découverte des champignons.
+            </p>
           </div>
         </div>
       </main>

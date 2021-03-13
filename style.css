@@ -9,3 +9,17 @@
 .concert-font {
   font-family: 'Concert One', cursive, sans-serif;
 }
+
+@media screen and (max-width: 620px) {
+  * {
+    font-size: 0.9rem;
+  }
+ 
+  strong, em {
+    font-size: 1.2rem;
+  }
+  /* Social network text in footer does not display with small screen */
+  #socialNetworkText{
+    display: none;
+  }
+}

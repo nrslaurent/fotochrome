@@ -1,45 +1,45 @@
 .courgette-font {
-  font-family: 'Courgette', cursive, sans-serif;
+  font-family: "Courgette", cursive, sans-serif;
 }
 
 .dancing-font {
-  font-family: 'Dancing Script', cursive, sans-serif;
+  font-family: "Dancing Script", cursive, sans-serif;
 }
 
 .concert-font {
-  font-family: 'Concert One', cursive, sans-serif;
+  font-family: "Concert One", cursive, sans-serif;
 }
 
 main {
-  min-height: 700px;
+  min-height: 70vh;
 }
+
 main p {
-  font-family: 'Courgette', cursive, sans-serif;
+  font-family: "Courgette", cursive, sans-serif;
 }
 
 @media screen and (max-width: 620px) {
   * {
     font-size: 0.9rem;
   }
- 
-  strong, em {
+
+  strong,
+  em {
     font-size: 1.2rem;
   }
   /* Social network text in footer is not displayed with small screen */
-  #socialNetworkText{
+  #socialNetworkText {
     display: none;
   }
-  /*items of the social network section are displayed at the end of the column*/
+  /* items of the social network section are displayed at the end of the column */
   #socialNetwork {
     display: flex;
     justify-content: end;
-  
-  /*Social network list is displayed in column*/
   }
+  /* Social network list is displayed in column */
+  
   #socialNetworkList {
     display: flex;
     flex-direction: column;
   }
-
-
 }

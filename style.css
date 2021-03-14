@@ -10,6 +10,13 @@
   font-family: 'Concert One', cursive, sans-serif;
 }
 
+main {
+  min-height: 700px;
+}
+main p {
+  font-family: 'Courgette', cursive, sans-serif;
+}
+
 @media screen and (max-width: 620px) {
   * {
     font-size: 0.9rem;
@@ -22,4 +29,5 @@
   #socialNetworkText{
     display: none;
   }
+
 }

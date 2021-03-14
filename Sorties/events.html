@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
@@ -41,65 +41,83 @@
               <li class="navbar-item">
                 <a class="nav-link" href="../index.html">Présentation</a>
               </li>
-              <li class="navbar-item">
-                <a href="../Sorties/events.html" class="nav-link">Evénements</a>
-              </li>
               <li class="navbar-item active" aria-current="page">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">Evénements</a>
+              </li>
+              <li class="navbar-item">
+                <a href="../contact/contact.html" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-dark">
-            <li class="breadcrumb-item"><a href="../index.html">Présentation</a></li>
-            <li class="breadcrumb-item"><a href="../Sorties/events.html">Evénements</a></li>
-            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+            <li class="breadcrumb-item">
+              <a href="../index.html">Présentation</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Evénements
+            </li>
+            <li class="breadcrumb-item">
+              <a href="../contact/contact.html">Contact</a>
+            </li>
           </ol>
         </nav>
       </header>
 
       <main class="container mt-5">
-        <div class="row">
+        <div class="row mb-5">
+          <h2 class="dancing-font text-center">Les sorties du mois d'avril</h2>
+        </div>
+        <div class="row mb-5">
           <div class="col-xs-12 col-lg-6">
-            <form action="#" method="POST">
-              <legend class="text-white-50 bg-dark text-center courgette-font">Formulaire de contact</legend>
-              <div class="mb-3">
-                <label for="lastname"  class="form-label">Nom</label>
-                <input type="text" class="form-control" name="lastname" id="lastname">
+            <div class="card m-auto mb-3">
+              <img
+                src="../images/paysage.jpeg"
+                alt="Port Royal"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title dancing-font text-center fs-3">
+                  Port Royal
+                </h5>
+                <p class="card-text">
+                  La prochaine sortie aura lieu à Port Royal des champs. Nous y
+                  découvrirons le musée national, les ruines de l'abbaye. Nous
+                  empreinterons le chemin de Jean Racine. Une belle journée en
+                  perspective.<br />
+                  <strong>Date: samedi 3 avril 2021</strong><br />
+                  <strong>Lieux du RDV: à l'entrée du musée Port Royal</strong>
+                </p>
               </div>
-              <div class="mb-3">
-                <label for="firstname"  class="form-label">Prénom</label>
-                <input type="text" class="form-control" name="firstname" id="firstname">
-              </div>
-              <div class="mb-3">
-                <label for="email"  class="form-label">Adresse email</label>
-                <input type="email" class="form-control" name="email" id="email">
-              </div>
-              <div class="mb-3">
-                <label for="textareaContactForm"  class="form-label">Votre demande:</label>
-                <textarea class="form-control" name="textareaContactForm" id="textareaContactForm" rows="5"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Envoyer</button>
-            </form>
+            </div>
           </div>
-          <div class="col-xs-12 col-lg-6 courgette-font fs-5 align-self-center mt-5">
-            <p class="text-center">
-              Veuillez remplir le formulaire pour toute demande de renseignement.
-            </p>
-            <p class="text-center mt-5">
-              Vous pouvez aussi nous écrire par courrier à l'adresse suivante:
-              <p class="text-center fw-bold mt-3">
-                Fotochrome<br />
-                1 rue des sardines<br />
-                78210 Saint-Cyr l'école
-              </p>
-            </p>
+          <div class="col-xs-12 col-lg-6">
+            <div class="card m-auto mb-3">
+              <img
+                src="../images/voiture.jpeg"
+                alt="voiture"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title dancing-font text-center fs-3">
+                  Les voitures anciennes
+                </h5>
+                <p class="card-text">
+                  La sortie à thème du mois d'avril sera les voitures anciennes.
+                  Nous arpenterons les rues parisiennes à la recherche de ces
+                  merveilles, cachés au coin d'une rue ou au fond d'un
+                  garage.<br />
+                  <strong>Date: samedi 17 avril 2021</strong><br />
+                  <strong>Lieux du RDV: RER Champ de Mars - Tour Eiffel</strong>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </main>
 
-      <footer class="mt-5">
+      <footer class="mt-4">
         <div class="container-fluid bg-secondary">
           <div class="row">
             <div class="col-6">

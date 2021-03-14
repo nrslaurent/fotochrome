@@ -25,9 +25,21 @@ main p {
   strong, em {
     font-size: 1.2rem;
   }
-  /* Social network text in footer does not display with small screen */
+  /* Social network text in footer is not displayed with small screen */
   #socialNetworkText{
     display: none;
   }
+  /*items of the social network section are displayed at the end of the column*/
+  #socialNetwork {
+    display: flex;
+    justify-content: end;
+  
+  /*Social network list is displayed in column*/
+  }
+  #socialNetworkList {
+    display: flex;
+    flex-direction: column;
+  }
+
 
 }

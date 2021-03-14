@@ -31,10 +31,11 @@ main p {
   #socialNetworkText {
     display: none;
   }
+  /*
   /* items of the social network section are displayed at the end of the column */
   #socialNetwork {
     display: flex;
-    justify-content: end;
+    justify-content:flex-end ;
   }
   /* Social network list is displayed in column */
   
